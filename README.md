@@ -11,8 +11,11 @@ split -s [chunk_size] -f [filename.ext] -o [output_name]
 
 options:
   -h, --help           show this help message and exit
+  
   -s , --chunk_size    size of a single part**
+  
   -f , --file_path     source file
+  
   -o , --output_file   out file [no extention]
   
   ** Chunk size can be input as follows,
